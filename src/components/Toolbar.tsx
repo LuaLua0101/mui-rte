@@ -60,41 +60,41 @@ type TStyleType = {
 }
 
 const STYLE_TYPES: TStyleType[] = [
-    {
-        label: 'H2',
-        name: "title",
-        style: 'header-two',
-        icon: <TitleIcon />,
-        type: "block"
-    },
-    {
-        label: 'Bold',
-        name: "bold",
-        style: 'BOLD',
-        icon: <FormatBoldIcon />,
-        type: "inline"
-    },
-    {
-        label: 'Italic',
-        name: "italic",
-        style: 'ITALIC',
-        icon: <FormatItalicIcon />,
-        type: "inline"
-    },
-    {
-        label: 'Underline',
-        name: "underline",
-        style: 'UNDERLINE',
-        icon: <FormatUnderlinedIcon />,
-        type: "inline"
-    },
-    {
-        label: 'Strikethrough',
-        name: "strikethrough",
-        style: 'STRIKETHROUGH',
-        icon: <StrikethroughIcon />,
-        type: "inline"
-    },
+    // {
+    //     label: 'H2',
+    //     name: "title",
+    //     style: 'header-two',
+    //     icon: <TitleIcon />,
+    //     type: "block"
+    // },
+    // {
+    //     label: 'Bold',
+    //     name: "bold",
+    //     style: 'BOLD',
+    //     icon: <FormatBoldIcon />,
+    //     type: "inline"
+    // },
+    // {
+    //     label: 'Italic',
+    //     name: "italic",
+    //     style: 'ITALIC',
+    //     icon: <FormatItalicIcon />,
+    //     type: "inline"
+    // },
+    // {
+    //     label: 'Underline',
+    //     name: "underline",
+    //     style: 'UNDERLINE',
+    //     icon: <FormatUnderlinedIcon />,
+    //     type: "inline"
+    // },
+    // {
+    //     label: 'Strikethrough',
+    //     name: "strikethrough",
+    //     style: 'STRIKETHROUGH',
+    //     icon: <StrikethroughIcon />,
+    //     type: "inline"
+    // },
     {
         label: 'Highlight',
         name: "highlight",
@@ -102,71 +102,71 @@ const STYLE_TYPES: TStyleType[] = [
         icon: <HighlightIcon />,
         type: "inline"
     },
-    {
-        label: 'Undo',
-        name: "undo",
-        style: "UNDO",
-        icon: <UndoIcon />,
-        type: "callback",
-    },
-    {
-        label: 'Redo',
-        name: "redo",
-        style: "REDO",
-        icon: <RedoIcon />,
-        type: "callback",
-    },
-    {
-        label: 'Link',
-        name: "link",
-        style: 'LINK',
-        icon: <InsertLinkIcon />,
-        type: "callback",
-        id: "mui-rte-link-control"
-    },
-    {
-        label: 'Media',
-        name: "media",
-        style: 'IMAGE',
-        icon: <PhotoLibraryIcon />,
-        type: "callback",
-        id: "mui-rte-media-control"
-    },
-    {
-        label: 'OL',
-        name: "bulletList",
-        style: 'ordered-list-item',
-        icon: <FormatListNumberedIcon />,
-        type: "block"
-    },
-    {
-        label: 'UL',
-        name: "numberList",
-        style: 'unordered-list-item',
-        icon: <FormatListBulletedIcon />,
-        type: "block"
-    },
-    {
-        label: 'Blockquote',
-        name: "quote",
-        style: 'blockquote',
-        icon: <FormatQuoteIcon />,
-        type: "block"
-    },
-    {
-        label: 'Code Block',
-        name: "code",
-        style: 'code-block',
-        icon: <CodeIcon />,
-        type: "block"
-    },
-    {
-        label: 'Clear',
-        name: "clear",
-        style: 'clear',
-        icon: <FormatClearIcon />,
-        type: "callback"
-    },
+    // {
+    //     label: 'Undo',
+    //     name: "undo",
+    //     style: "UNDO",
+    //     icon: <UndoIcon />,
+    //     type: "callback",
+    // },
+    // {
+    //     label: 'Redo',
+    //     name: "redo",
+    //     style: "REDO",
+    //     icon: <RedoIcon />,
+    //     type: "callback",
+    // },
+    // {
+    //     label: 'Link',
+    //     name: "link",
+    //     style: 'LINK',
+    //     icon: <InsertLinkIcon />,
+    //     type: "callback",
+    //     id: "mui-rte-link-control"
+    // },
+    // {
+    //     label: 'Media',
+    //     name: "media",
+    //     style: 'IMAGE',
+    //     icon: <PhotoLibraryIcon />,
+    //     type: "callback",
+    //     id: "mui-rte-media-control"
+    // },
+    // {
+    //     label: 'OL',
+    //     name: "bulletList",
+    //     style: 'ordered-list-item',
+    //     icon: <FormatListNumberedIcon />,
+    //     type: "block"
+    // },
+    // {
+    //     label: 'UL',
+    //     name: "numberList",
+    //     style: 'unordered-list-item',
+    //     icon: <FormatListBulletedIcon />,
+    //     type: "block"
+    // },
+    // {
+    //     label: 'Blockquote',
+    //     name: "quote",
+    //     style: 'blockquote',
+    //     icon: <FormatQuoteIcon />,
+    //     type: "block"
+    // },
+    // {
+    //     label: 'Code Block',
+    //     name: "code",
+    //     style: 'code-block',
+    //     icon: <CodeIcon />,
+    //     type: "block"
+    // },
+    // {
+    //     label: 'Clear',
+    //     name: "clear",
+    //     style: 'clear',
+    //     icon: <FormatClearIcon />,
+    //     type: "callback"
+    // },
     {
         label: 'Save',
         name: "save",
